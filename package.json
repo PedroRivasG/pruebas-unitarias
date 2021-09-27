@@ -1,0 +1,23 @@
+{
+    "name": "pruebasunitarias",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jasmine",
+        "start": "nodemon run index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^6.0.7",
+        "morgan": "^1.10.0",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.1.6"
+    },
+    "devDependencies": {
+        "jasmine": "^3.9.0",
+        "nodemon": "^2.0.12"
+    }
+}
