@@ -35,7 +35,7 @@ describe('Test modelo Comercio', function() {
         })
     })
 
-    describe('Comprobar save', () => {
+    describe('Comprobar guardado', () => {
         it('loading', (done) => {
             const comerciosave = Comercio.Constructor('Comercio 9', 'Guazapa')
             Comercio.registrar(comerciosave, function(err, cb) {
@@ -55,7 +55,7 @@ describe('Test modelo Comercio', function() {
         })
     })
 
-    describe('Comprobar eliminar', () => {
+    describe('Comprobar eliminacion', () => {
         it('loading', (done) => {
             Comercio.eliminar('61425175bef8cf76c1d2d307', function(err, cb) {
                 expect(err).toBe(null);
